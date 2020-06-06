@@ -1,0 +1,863 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OAuthSwiftURLHandlerType"
+- "OAuthSwiftOpenURLExternally"
+- "ASWebAuthenticationURLHandler"
+- "SFAuthenticationURLHandler"
+- "SafariURLHandler"
+- "ExtensionContextURLHandler"
+- "OAuthSwiftURLHandlerProxy"
+provides-nominal:
+- "10OAuthSwift0aB14URLHandlerTypeP"
+- "10OAuthSwift0aB17OpenURLExternallyC"
+- "10OAuthSwift29ASWebAuthenticationURLHandlerC"
+- "10OAuthSwift26SFAuthenticationURLHandlerC"
+- "10OAuthSwift16SafariURLHandlerC"
+- "10OAuthSwift26ExtensionContextURLHandlerC"
+- "10OAuthSwift0aB15URLHandlerProxyC"
+provides-member:
+- ["10OAuthSwift0aB14URLHandlerTypeP", ""]
+- ["10OAuthSwift0aB17OpenURLExternallyC", ""]
+- ["10OAuthSwift29ASWebAuthenticationURLHandlerC", ""]
+- ["10OAuthSwift26SFAuthenticationURLHandlerC", ""]
+- ["10OAuthSwift16SafariURLHandlerC", ""]
+- ["10OAuthSwift26ExtensionContextURLHandlerC", ""]
+- ["10OAuthSwift0aB15URLHandlerProxyC", ""]
+- ["10OAuthSwift0aB14URLHandlerTypeP", "weak"]
+provides-dynamic-lookup:
+- "handle"
+- "safariViewController"
+- "safariViewControllerDidFinish"
+depends-top-level:
+- !private "=="
+- !private "??"
+- "ASWebAuthenticationSession"
+- "ASWebAuthenticationURLHandler"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "ExtensionContextURLHandler"
+- "FloatLiteralType"
+- "Foundation"
+- "IntegerLiteralType"
+- "NSExtensionContext"
+- "NSObject"
+- "NSObjectProtocol"
+- "OAuthSwift"
+- "OAuthSwiftOpenURLExternally"
+- "OAuthSwiftURLHandlerProxy"
+- "OAuthSwiftURLHandlerType"
+- !private "OperationQueue"
+- "SFAuthenticationSession"
+- "SFAuthenticationURLHandler"
+- "SFSafariViewController"
+- "SFSafariViewControllerDelegate"
+- "SafariURLHandler"
+- "String"
+- "StringLiteralType"
+- "UIActivity"
+- !private "UIApplication"
+- "UIViewController"
+- "UInt32"
+- "URL"
+- !private "UUID"
+- "Void"
+- !private "sleep"
+depends-member:
+- !private ["So26ASWebAuthenticationSessionC", "init"]
+- !private ["So26ASWebAuthenticationSessionC", "start"]
+- ["10OAuthSwift29ASWebAuthenticationURLHandlerC", "ASWebAuthenticationSession"]
+- ["10OAuthSwift29ASWebAuthenticationURLHandlerC", "String"]
+- !private ["10OAuthSwift29ASWebAuthenticationURLHandlerC", "UIApplication"]
+- ["10OAuthSwift29ASWebAuthenticationURLHandlerC", "URL"]
+- ["10OAuthSwift29ASWebAuthenticationURLHandlerC", "callbackUrlScheme"]
+- ["10OAuthSwift29ASWebAuthenticationURLHandlerC", "deinit"]
+- ["10OAuthSwift29ASWebAuthenticationURLHandlerC", "handle"]
+- ["10OAuthSwift29ASWebAuthenticationURLHandlerC", "init"]
+- ["10OAuthSwift29ASWebAuthenticationURLHandlerC", "webAuthSession"]
+- !private ["SK", "addingPercentEncoding"]
+- ["s7CVarArgP", "NSObjectProtocol"]
+- !private ["s7CVarArgP", "OAuthSwift"]
+- !private ["s7CVarArgP", "OperationQueue"]
+- ["s7CVarArgP", "SFSafariViewController"]
+- ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "UUID"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addObserver"]
+- !private ["s7CVarArgP", "addingPercentEncoding"]
+- !private ["s7CVarArgP", "animated"]
+- !private ["s7CVarArgP", "clearLocalObservers"]
+- !private ["s7CVarArgP", "clearObservers"]
+- !private ["s7CVarArgP", "delay"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "didHandleCallbackURL"]
+- !private ["s7CVarArgP", "dismiss"]
+- !private ["s7CVarArgP", "dismissCompletion"]
+- !private ["s7CVarArgP", "factory"]
+- ["s7CVarArgP", "handle"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "notificationCenter"]
+- !private ["s7CVarArgP", "oauthSwift"]
+- !private ["s7CVarArgP", "observers"]
+- !private ["s7CVarArgP", "open"]
+- !private ["s7CVarArgP", "openURL"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "presentCompletion"]
+- !private ["s7CVarArgP", "removeAll"]
+- !private ["s7CVarArgP", "removeCallbackNotificationObserver"]
+- !private ["s7CVarArgP", "removeObserver"]
+- !private ["s7CVarArgP", "removeValue"]
+- ["s7CVarArgP", "safariViewController"]
+- ["s7CVarArgP", "safariViewControllerDidFinish"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "sleep"]
+- !private ["s7CVarArgP", "start"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["10Foundation12CharacterSetV", "urlHostAllowed"]
+- !private ["Sl", "addingPercentEncoding"]
+- ["Sl", "init"]
+- !private ["Sl", "removeAll"]
+- !private ["Sl", "removeValue"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "addingPercentEncoding"]
+- ["s28CustomDebugStringConvertibleP", "NSObjectProtocol"]
+- !private ["s28CustomDebugStringConvertibleP", "OAuthSwift"]
+- !private ["s28CustomDebugStringConvertibleP", "OperationQueue"]
+- ["s28CustomDebugStringConvertibleP", "SFSafariViewController"]
+- ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "UUID"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "addingPercentEncoding"]
+- !private ["s28CustomDebugStringConvertibleP", "animated"]
+- !private ["s28CustomDebugStringConvertibleP", "clearLocalObservers"]
+- !private ["s28CustomDebugStringConvertibleP", "clearObservers"]
+- !private ["s28CustomDebugStringConvertibleP", "delay"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "didHandleCallbackURL"]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+- !private ["s28CustomDebugStringConvertibleP", "dismissCompletion"]
+- !private ["s28CustomDebugStringConvertibleP", "factory"]
+- ["s28CustomDebugStringConvertibleP", "handle"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "notificationCenter"]
+- !private ["s28CustomDebugStringConvertibleP", "oauthSwift"]
+- !private ["s28CustomDebugStringConvertibleP", "observers"]
+- !private ["s28CustomDebugStringConvertibleP", "open"]
+- !private ["s28CustomDebugStringConvertibleP", "openURL"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "presentCompletion"]
+- !private ["s28CustomDebugStringConvertibleP", "removeAll"]
+- !private ["s28CustomDebugStringConvertibleP", "removeCallbackNotificationObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "removeObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "removeValue"]
+- ["s28CustomDebugStringConvertibleP", "safariViewController"]
+- ["s28CustomDebugStringConvertibleP", "safariViewControllerDidFinish"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "sleep"]
+- !private ["s28CustomDebugStringConvertibleP", "start"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "urlHostAllowed"]
+- !private ["s28CustomDebugStringConvertibleP", "uuidString"]
+- !private ["s17CustomReflectableP", "addingPercentEncoding"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "removeAll"]
+- !private ["s17CustomReflectableP", "removeValue"]
+- !private ["s17CustomReflectableP", "start"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "uuidString"]
+- ["s23CustomStringConvertibleP", "NSObjectProtocol"]
+- !private ["s23CustomStringConvertibleP", "OAuthSwift"]
+- !private ["s23CustomStringConvertibleP", "OperationQueue"]
+- ["s23CustomStringConvertibleP", "SFSafariViewController"]
+- ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "UUID"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addObserver"]
+- !private ["s23CustomStringConvertibleP", "addingPercentEncoding"]
+- !private ["s23CustomStringConvertibleP", "animated"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "clearLocalObservers"]
+- !private ["s23CustomStringConvertibleP", "clearObservers"]
+- !private ["s23CustomStringConvertibleP", "delay"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "didHandleCallbackURL"]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+- !private ["s23CustomStringConvertibleP", "dismissCompletion"]
+- !private ["s23CustomStringConvertibleP", "factory"]
+- ["s23CustomStringConvertibleP", "handle"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "notificationCenter"]
+- !private ["s23CustomStringConvertibleP", "oauthSwift"]
+- !private ["s23CustomStringConvertibleP", "observers"]
+- !private ["s23CustomStringConvertibleP", "open"]
+- !private ["s23CustomStringConvertibleP", "openURL"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "presentCompletion"]
+- !private ["s23CustomStringConvertibleP", "removeAll"]
+- !private ["s23CustomStringConvertibleP", "removeCallbackNotificationObserver"]
+- !private ["s23CustomStringConvertibleP", "removeObserver"]
+- !private ["s23CustomStringConvertibleP", "removeValue"]
+- ["s23CustomStringConvertibleP", "safariViewController"]
+- ["s23CustomStringConvertibleP", "safariViewControllerDidFinish"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "sleep"]
+- !private ["s23CustomStringConvertibleP", "start"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "urlHostAllowed"]
+- !private ["s23CustomStringConvertibleP", "uuidString"]
+- !private ["Se", "addingPercentEncoding"]
+- ["Se", "init"]
+- !private ["Se", "removeAll"]
+- !private ["Se", "removeValue"]
+- !private ["Se", "start"]
+- !private ["Se", "subscript"]
+- !private ["Se", "urlHostAllowed"]
+- !private ["Se", "uuidString"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SD", "init"]
+- !private ["SD", "removeAll"]
+- !private ["SD", "removeValue"]
+- !private ["SD", "subscript"]
+- !private ["SE", "addingPercentEncoding"]
+- ["SE", "init"]
+- !private ["SE", "removeAll"]
+- !private ["SE", "removeValue"]
+- !private ["SE", "start"]
+- !private ["SE", "subscript"]
+- !private ["SE", "urlHostAllowed"]
+- !private ["SE", "uuidString"]
+- ["SQ", "NSObjectProtocol"]
+- !private ["SQ", "OAuthSwift"]
+- !private ["SQ", "OperationQueue"]
+- ["SQ", "SFSafariViewController"]
+- ["SQ", "String"]
+- !private ["SQ", "UUID"]
+- ["SQ", ""]
+- !private ["SQ", "addObserver"]
+- !private ["SQ", "addingPercentEncoding"]
+- !private ["SQ", "animated"]
+- !private ["SQ", "clearLocalObservers"]
+- !private ["SQ", "clearObservers"]
+- !private ["SQ", "delay"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "didHandleCallbackURL"]
+- !private ["SQ", "dismiss"]
+- !private ["SQ", "dismissCompletion"]
+- !private ["SQ", "factory"]
+- ["SQ", "handle"]
+- ["SQ", "init"]
+- !private ["SQ", "main"]
+- !private ["SQ", "notificationCenter"]
+- !private ["SQ", "oauthSwift"]
+- !private ["SQ", "observers"]
+- !private ["SQ", "open"]
+- !private ["SQ", "openURL"]
+- !private ["SQ", "present"]
+- !private ["SQ", "presentCompletion"]
+- !private ["SQ", "removeAll"]
+- !private ["SQ", "removeCallbackNotificationObserver"]
+- !private ["SQ", "removeObserver"]
+- !private ["SQ", "removeValue"]
+- ["SQ", "safariViewController"]
+- ["SQ", "safariViewControllerDidFinish"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "sleep"]
+- !private ["SQ", "start"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "urlHostAllowed"]
+- !private ["SQ", "uuidString"]
+- !private ["s5ErrorP", "localizedDescription"]
+- !private ["s25ExpressibleByArrayLiteralP", "urlHostAllowed"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "removeAll"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "removeValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "addingPercentEncoding"]
+- !private ["s23ExpressibleByNilLiteralP", "start"]
+- !private ["s32ExpressibleByStringInterpolationP", "addingPercentEncoding"]
+- !private ["s26ExpressibleByStringLiteralP", "addingPercentEncoding"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "addingPercentEncoding"]
+- ["10OAuthSwift26ExtensionContextURLHandlerC", "NSExtensionContext"]
+- ["10OAuthSwift26ExtensionContextURLHandlerC", "URL"]
+- ["10OAuthSwift26ExtensionContextURLHandlerC", "deinit"]
+- !private ["10OAuthSwift26ExtensionContextURLHandlerC", "extensionContext"]
+- ["10OAuthSwift26ExtensionContextURLHandlerC", "handle"]
+- ["10OAuthSwift26ExtensionContextURLHandlerC", "init"]
+- ["SH", "NSObjectProtocol"]
+- !private ["SH", "OAuthSwift"]
+- !private ["SH", "OperationQueue"]
+- ["SH", "SFSafariViewController"]
+- ["SH", "String"]
+- !private ["SH", "UUID"]
+- ["SH", ""]
+- !private ["SH", "addObserver"]
+- !private ["SH", "addingPercentEncoding"]
+- !private ["SH", "animated"]
+- !private ["SH", "clearLocalObservers"]
+- !private ["SH", "clearObservers"]
+- !private ["SH", "delay"]
+- !private ["SH", "delegate"]
+- !private ["SH", "didHandleCallbackURL"]
+- !private ["SH", "dismiss"]
+- !private ["SH", "dismissCompletion"]
+- !private ["SH", "factory"]
+- ["SH", "handle"]
+- ["SH", "init"]
+- !private ["SH", "main"]
+- !private ["SH", "notificationCenter"]
+- !private ["SH", "oauthSwift"]
+- !private ["SH", "observers"]
+- !private ["SH", "open"]
+- !private ["SH", "openURL"]
+- !private ["SH", "present"]
+- !private ["SH", "presentCompletion"]
+- !private ["SH", "removeAll"]
+- !private ["SH", "removeCallbackNotificationObserver"]
+- !private ["SH", "removeObserver"]
+- !private ["SH", "removeValue"]
+- ["SH", "safariViewController"]
+- ["SH", "safariViewControllerDidFinish"]
+- !private ["SH", "shared"]
+- !private ["SH", "sleep"]
+- !private ["SH", "start"]
+- !private ["SH", "subscript"]
+- !private ["SH", "urlHostAllowed"]
+- !private ["SH", "uuidString"]
+- !private ["s25LosslessStringConvertibleP", "addingPercentEncoding"]
+- !private ["s10MirrorPathP", "addingPercentEncoding"]
+- !private ["So8NSCodingP", "addingPercentEncoding"]
+- !private ["So8NSCodingP", "delegate"]
+- !private ["So8NSCodingP", "dismiss"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So9NSCopyingP", "addingPercentEncoding"]
+- !private ["So18NSExtensionContextC", "open"]
+- !private ["So26NSExtensionRequestHandlingP", "delegate"]
+- !private ["So26NSExtensionRequestHandlingP", "dismiss"]
+- ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So21NSItemProviderReadingP", "addingPercentEncoding"]
+- !private ["So21NSItemProviderWritingP", "addingPercentEncoding"]
+- !private ["So16NSMutableCopyingP", "addingPercentEncoding"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Foundation"]
+- ["So8NSObjectC", "NSObjectProtocol"]
+- ["So8NSObjectC", "OAuthSwift"]
+- !private ["So8NSObjectC", "OperationQueue"]
+- ["So8NSObjectC", "SFSafariViewController"]
+- ["So8NSObjectC", "SFSafariViewControllerDelegate"]
+- ["So8NSObjectC", "SafariURLHandler"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIActivity"]
+- ["So8NSObjectC", "UITransion"]
+- ["So8NSObjectC", "UIViewController"]
+- ["So8NSObjectC", "UInt32"]
+- ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "UUID"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "addObserver"]
+- !private ["So8NSObjectC", "addingPercentEncoding"]
+- ["So8NSObjectC", "animated"]
+- ["So8NSObjectC", "clearLocalObservers"]
+- ["So8NSObjectC", "clearObservers"]
+- ["So8NSObjectC", "delay"]
+- ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "didHandleCallbackURL"]
+- ["So8NSObjectC", "dismiss"]
+- ["So8NSObjectC", "dismissCompletion"]
+- ["So8NSObjectC", "factory"]
+- ["So8NSObjectC", "handle"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "notificationCenter"]
+- ["So8NSObjectC", "oauthSwift"]
+- ["So8NSObjectC", "observers"]
+- !private ["So8NSObjectC", "open"]
+- !private ["So8NSObjectC", "openURL"]
+- ["So8NSObjectC", "present"]
+- ["So8NSObjectC", "presentCompletion"]
+- !private ["So8NSObjectC", "removeCallbackNotificationObserver"]
+- !private ["So8NSObjectC", "removeObserver"]
+- ["So8NSObjectC", "safariViewController"]
+- ["So8NSObjectC", "safariViewControllerDidFinish"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "sleep"]
+- !private ["So8NSObjectC", "start"]
+- ["So8NSObjectP", "NSObjectProtocol"]
+- !private ["So8NSObjectP", "OAuthSwift"]
+- !private ["So8NSObjectP", "OperationQueue"]
+- ["So8NSObjectP", "SFSafariViewController"]
+- ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "UUID"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addObserver"]
+- !private ["So8NSObjectP", "addingPercentEncoding"]
+- !private ["So8NSObjectP", "animated"]
+- !private ["So8NSObjectP", "clearLocalObservers"]
+- !private ["So8NSObjectP", "clearObservers"]
+- !private ["So8NSObjectP", "delay"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "didHandleCallbackURL"]
+- !private ["So8NSObjectP", "dismiss"]
+- !private ["So8NSObjectP", "dismissCompletion"]
+- !private ["So8NSObjectP", "factory"]
+- ["So8NSObjectP", "handle"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "notificationCenter"]
+- !private ["So8NSObjectP", "oauthSwift"]
+- !private ["So8NSObjectP", "observers"]
+- !private ["So8NSObjectP", "open"]
+- !private ["So8NSObjectP", "openURL"]
+- !private ["So8NSObjectP", "present"]
+- !private ["So8NSObjectP", "presentCompletion"]
+- !private ["So8NSObjectP", "removeCallbackNotificationObserver"]
+- !private ["So8NSObjectP", "removeObserver"]
+- ["So8NSObjectP", "safariViewController"]
+- ["So8NSObjectP", "safariViewControllerDidFinish"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "sleep"]
+- !private ["So8NSObjectP", "start"]
+- !private ["So14NSSecureCodingP", "addingPercentEncoding"]
+- !private ["So8NSStringC", "addingPercentEncoding"]
+- !private ["So20NSNotificationCenterC", "addObserver"]
+- !private ["So20NSNotificationCenterC", "removeObserver"]
+- !private ["10OAuthSwiftAAC", "didHandleCallbackURL"]
+- !private ["10OAuthSwiftAAC", "main"]
+- !private ["10OAuthSwiftAAC", "notificationCenter"]
+- !private ["10OAuthSwiftAAC", "removeCallbackNotificationObserver"]
+- ["10OAuthSwift0aB17OpenURLExternallyC", "OAuthSwiftOpenURLExternally"]
+- !private ["10OAuthSwift0aB17OpenURLExternallyC", "UIApplication"]
+- ["10OAuthSwift0aB17OpenURLExternallyC", "URL"]
+- ["10OAuthSwift0aB17OpenURLExternallyC", "deinit"]
+- ["10OAuthSwift0aB17OpenURLExternallyC", "handle"]
+- ["10OAuthSwift0aB17OpenURLExternallyC", "init"]
+- ["10OAuthSwift0aB17OpenURLExternallyC", "sharedInstance"]
+- !private ["10OAuthSwift0aB13RequestHandleP", "didHandleCallbackURL"]
+- !private ["10OAuthSwift0aB13RequestHandleP", "main"]
+- !private ["10OAuthSwift0aB13RequestHandleP", "notificationCenter"]
+- !private ["10OAuthSwift0aB13RequestHandleP", "removeCallbackNotificationObserver"]
+- ["10OAuthSwift0aB15URLHandlerProxyC", "OAuthSwiftURLHandlerType"]
+- ["10OAuthSwift0aB15URLHandlerProxyC", "URL"]
+- ["10OAuthSwift0aB15URLHandlerProxyC", "deinit"]
+- ["10OAuthSwift0aB15URLHandlerProxyC", "handle"]
+- ["10OAuthSwift0aB15URLHandlerProxyC", "init"]
+- ["10OAuthSwift0aB15URLHandlerProxyC", "proxiable"]
+- !private ["10OAuthSwift0aB14URLHandlerTypeP", "ASWebAuthenticationSession"]
+- ["10OAuthSwift0aB14URLHandlerTypeP", "NSObjectProtocol"]
+- !private ["10OAuthSwift0aB14URLHandlerTypeP", "OAuthSwift"]
+- ["10OAuthSwift0aB14URLHandlerTypeP", "OAuthSwiftOpenURLExternally"]
+- !private ["10OAuthSwift0aB14URLHandlerTypeP", "OAuthSwiftURLHandlerProxy"]
+- ["10OAuthSwift0aB14URLHandlerTypeP", "OAuthSwiftURLHandlerType"]
+- !private ["10OAuthSwift0aB14URLHandlerTypeP", "OperationQueue"]
+- !private ["10OAuthSwift0aB14URLHandlerTypeP", "SFAuthenticationSession"]
+- ["10OAuthSwift0aB14URLHandlerTypeP", "SFSafariViewController"]
+- ["10OAuthSwift0aB14URLHandlerTypeP", "String"]
+- !private ["10OAuthSwift0aB14URLHandlerTypeP", "UIApplication"]
+- ["10OAuthSwift0aB14URLHandlerTypeP", "URL"]
+- !private ["10OAuthSwift0aB14URLHandlerTypeP", "UUID"]
+- ["10OAuthSwift0aB14URLHandlerTypeP", ""]
+- !private ["10OAuthSwift0aB14URLHandlerTypeP", "animated"]
+- !private ["10OAuthSwift0aB14URLHandlerTypeP", "callbackUrlScheme"]
+- !private ["10OAuthSwift0aB14URLHandlerTypeP", "clearLocalObservers"]
+- !private ["10OAuthSwift0aB14URLHandlerTypeP", "clearObservers"]
+- !private ["10OAuthSwift0aB14URLHandlerTypeP", "delay"]
+- !private ["10OAuthSwift0aB14URLHandlerTypeP", "delegate"]
+- !private ["10OAuthSwift0aB14URLHandlerTypeP", "dismiss"]
+- !private ["10OAuthSwift0aB14URLHandlerTypeP", "dismissCompletion"]
+- !private ["10OAuthSwift0aB14URLHandlerTypeP", "extensionContext"]
+- !private ["10OAuthSwift0aB14URLHandlerTypeP", "factory"]
+- ["10OAuthSwift0aB14URLHandlerTypeP", "handle"]
+- ["10OAuthSwift0aB14URLHandlerTypeP", "init"]
+- !private ["10OAuthSwift0aB14URLHandlerTypeP", "oauthSwift"]
+- !private ["10OAuthSwift0aB14URLHandlerTypeP", "observers"]
+- !private ["10OAuthSwift0aB14URLHandlerTypeP", "present"]
+- !private ["10OAuthSwift0aB14URLHandlerTypeP", "presentCompletion"]
+- !private ["10OAuthSwift0aB14URLHandlerTypeP", "proxiable"]
+- ["10OAuthSwift0aB14URLHandlerTypeP", "safariViewController"]
+- ["10OAuthSwift0aB14URLHandlerTypeP", "safariViewControllerDidFinish"]
+- !private ["10OAuthSwift0aB14URLHandlerTypeP", "sleep"]
+- ["10OAuthSwift0aB14URLHandlerTypeP", "weak"]
+- !private ["10OAuthSwift0aB14URLHandlerTypeP", "webAuthSession"]
+- !private ["So16NSOperationQueueC", "main"]
+- !private ["Sq", "start"]
+- !private ["So19NSProgressReportingP", "main"]
+- !private ["Sm", "addingPercentEncoding"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "urlHostAllowed"]
+- !private ["10Foundation20ReferenceConvertibleP", "uuidString"]
+- !private ["So23SFAuthenticationSessionC", "init"]
+- !private ["So23SFAuthenticationSessionC", "start"]
+- ["10OAuthSwift26SFAuthenticationURLHandlerC", "SFAuthenticationSession"]
+- ["10OAuthSwift26SFAuthenticationURLHandlerC", "String"]
+- !private ["10OAuthSwift26SFAuthenticationURLHandlerC", "UIApplication"]
+- ["10OAuthSwift26SFAuthenticationURLHandlerC", "URL"]
+- ["10OAuthSwift26SFAuthenticationURLHandlerC", "callbackUrlScheme"]
+- ["10OAuthSwift26SFAuthenticationURLHandlerC", "deinit"]
+- ["10OAuthSwift26SFAuthenticationURLHandlerC", "handle"]
+- ["10OAuthSwift26SFAuthenticationURLHandlerC", "init"]
+- ["10OAuthSwift26SFAuthenticationURLHandlerC", "webAuthSession"]
+- !private ["So22SFSafariViewControllerC", "delegate"]
+- ["So22SFSafariViewControllerC", "init"]
+- ["So30SFSafariViewControllerDelegateP", "NSObjectProtocol"]
+- !private ["So30SFSafariViewControllerDelegateP", "OAuthSwift"]
+- !private ["So30SFSafariViewControllerDelegateP", "OperationQueue"]
+- ["So30SFSafariViewControllerDelegateP", "SFSafariViewController"]
+- ["So30SFSafariViewControllerDelegateP", "String"]
+- !private ["So30SFSafariViewControllerDelegateP", "UUID"]
+- ["So30SFSafariViewControllerDelegateP", ""]
+- !private ["So30SFSafariViewControllerDelegateP", "animated"]
+- !private ["So30SFSafariViewControllerDelegateP", "clearLocalObservers"]
+- !private ["So30SFSafariViewControllerDelegateP", "clearObservers"]
+- !private ["So30SFSafariViewControllerDelegateP", "delay"]
+- !private ["So30SFSafariViewControllerDelegateP", "delegate"]
+- !private ["So30SFSafariViewControllerDelegateP", "dismiss"]
+- !private ["So30SFSafariViewControllerDelegateP", "dismissCompletion"]
+- !private ["So30SFSafariViewControllerDelegateP", "factory"]
+- ["So30SFSafariViewControllerDelegateP", "handle"]
+- !private ["So30SFSafariViewControllerDelegateP", "oauthSwift"]
+- !private ["So30SFSafariViewControllerDelegateP", "observers"]
+- !private ["So30SFSafariViewControllerDelegateP", "present"]
+- !private ["So30SFSafariViewControllerDelegateP", "presentCompletion"]
+- ["So30SFSafariViewControllerDelegateP", "safariViewController"]
+- ["So30SFSafariViewControllerDelegateP", "safariViewControllerDidFinish"]
+- !private ["So30SFSafariViewControllerDelegateP", "sleep"]
+- ["10OAuthSwift16SafariURLHandlerC", "Bool"]
+- ["10OAuthSwift16SafariURLHandlerC", "Foundation"]
+- ["10OAuthSwift16SafariURLHandlerC", "NSObjectProtocol"]
+- ["10OAuthSwift16SafariURLHandlerC", "OAuthSwift"]
+- !private ["10OAuthSwift16SafariURLHandlerC", "OperationQueue"]
+- ["10OAuthSwift16SafariURLHandlerC", "SFSafariViewController"]
+- ["10OAuthSwift16SafariURLHandlerC", "SFSafariViewControllerDelegate"]
+- ["10OAuthSwift16SafariURLHandlerC", "SafariURLHandler"]
+- ["10OAuthSwift16SafariURLHandlerC", "String"]
+- ["10OAuthSwift16SafariURLHandlerC", "UIActivity"]
+- ["10OAuthSwift16SafariURLHandlerC", "UITransion"]
+- ["10OAuthSwift16SafariURLHandlerC", "UIViewController"]
+- ["10OAuthSwift16SafariURLHandlerC", "UInt32"]
+- ["10OAuthSwift16SafariURLHandlerC", "URL"]
+- !private ["10OAuthSwift16SafariURLHandlerC", "UUID"]
+- ["10OAuthSwift16SafariURLHandlerC", "Void"]
+- ["10OAuthSwift16SafariURLHandlerC", "animated"]
+- ["10OAuthSwift16SafariURLHandlerC", "clearLocalObservers"]
+- ["10OAuthSwift16SafariURLHandlerC", "clearObservers"]
+- ["10OAuthSwift16SafariURLHandlerC", "deinit"]
+- ["10OAuthSwift16SafariURLHandlerC", "delay"]
+- ["10OAuthSwift16SafariURLHandlerC", "delegate"]
+- ["10OAuthSwift16SafariURLHandlerC", "dismiss"]
+- ["10OAuthSwift16SafariURLHandlerC", "dismissCompletion"]
+- ["10OAuthSwift16SafariURLHandlerC", "factory"]
+- ["10OAuthSwift16SafariURLHandlerC", "handle"]
+- ["10OAuthSwift16SafariURLHandlerC", "init"]
+- ["10OAuthSwift16SafariURLHandlerC", "oauthSwift"]
+- ["10OAuthSwift16SafariURLHandlerC", "observers"]
+- ["10OAuthSwift16SafariURLHandlerC", "present"]
+- ["10OAuthSwift16SafariURLHandlerC", "presentCompletion"]
+- ["10OAuthSwift16SafariURLHandlerC", "safariViewController"]
+- ["10OAuthSwift16SafariURLHandlerC", "safariViewControllerDidFinish"]
+- !private ["10OAuthSwift16SafariURLHandlerC", "sleep"]
+- !private ["7Combine9SchedulerP", "main"]
+- !private ["ST", "addingPercentEncoding"]
+- ["ST", "init"]
+- !private ["ST", "removeAll"]
+- !private ["ST", "removeValue"]
+- !private ["ST", "subscript"]
+- !private ["s10SetAlgebraP", "urlHostAllowed"]
+- !private ["SS", "addingPercentEncoding"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "addingPercentEncoding"]
+- !private ["s16TextOutputStreamP", "addingPercentEncoding"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s20TextOutputStreamableP", "addingPercentEncoding"]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So13UIApplicationC", "open"]
+- !private ["So13UIApplicationC", "openURL"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So18UIContentContainerP", "delegate"]
+- !private ["So18UIContentContainerP", "dismiss"]
+- ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "open"]
+- !private ["So30UIPasteConfigurationSupportingP", "openURL"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- !private ["So11UIResponderC", "delegate"]
+- !private ["So11UIResponderC", "dismiss"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "open"]
+- !private ["So11UIResponderC", "openURL"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "open"]
+- !private ["So30UIResponderStandardEditActionsP", "openURL"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So16UIStateRestoringP", "delegate"]
+- !private ["So16UIStateRestoringP", "dismiss"]
+- ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So23UIUserActivityRestoringP", "delegate"]
+- !private ["So23UIUserActivityRestoringP", "dismiss"]
+- ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "open"]
+- !private ["So23UIUserActivityRestoringP", "openURL"]
+- !private ["So23UIUserActivityRestoringP", "present"]
+- !private ["So23UIUserActivityRestoringP", "shared"]
+- !private ["So16UIViewControllerC", "delegate"]
+- !private ["So16UIViewControllerC", "dismiss"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["10OAuthSwift14URLConvertibleP", "addingPercentEncoding"]
+- !private ["10OAuthSwift14URLConvertibleP", "init"]
+- !private ["10Foundation4UUIDV", "init"]
+- !private ["10Foundation4UUIDV", "uuidString"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "addingPercentEncoding"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "addingPercentEncoding"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "addingPercentEncoding"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "addingPercentEncoding"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "addingPercentEncoding"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "addingPercentEncoding"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeAll"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "NSObjectProtocol"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "OAuthSwift"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "OperationQueue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "SFSafariViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UUID"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addingPercentEncoding"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "animated"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clearLocalObservers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clearObservers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delay"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didHandleCallbackURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismissCompletion"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "factory"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "handle"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "notificationCenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "oauthSwift"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "observers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "open"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "openURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "presentCompletion"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeCallbackNotificationObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeObserver"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "safariViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "safariViewControllerDidFinish"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sleep"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "start"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSObjectProtocol"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "OAuthSwift"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "OperationQueue"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SFSafariViewController"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "String"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UUID"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addObserver"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addingPercentEncoding"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "animated"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "clearLocalObservers"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "clearObservers"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delay"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didHandleCallbackURL"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dismiss"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dismissCompletion"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "factory"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "handle"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "notificationCenter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "oauthSwift"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "observers"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "open"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "openURL"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "present"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "presentCompletion"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeCallbackNotificationObserver"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeObserver"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "safariViewController"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "safariViewControllerDidFinish"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sleep"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "start"]
+- !private ["s21_ObjectiveCBridgeableP", "addingPercentEncoding"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "removeAll"]
+- !private ["s21_ObjectiveCBridgeableP", "removeValue"]
+- !private ["s21_ObjectiveCBridgeableP", "start"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "urlHostAllowed"]
+- !private ["s21_ObjectiveCBridgeableP", "uuidString"]
+depends-nominal:
+- !private "So26ASWebAuthenticationSessionC"
+- "10OAuthSwift29ASWebAuthenticationURLHandlerC"
+- !private "SK"
+- "s7CVarArgP"
+- !private "10Foundation12CharacterSetV"
+- "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SD"
+- "SE"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "10OAuthSwift26ExtensionContextURLHandlerC"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So18NSExtensionContextC"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So20NSNotificationCenterC"
+- !private "10OAuthSwiftAAC"
+- "10OAuthSwift0aB17OpenURLExternallyC"
+- !private "10OAuthSwift0aB13RequestHandleP"
+- "10OAuthSwift0aB15URLHandlerProxyC"
+- "10OAuthSwift0aB14URLHandlerTypeP"
+- !private "So16NSOperationQueueC"
+- !private "Sq"
+- !private "So19NSProgressReportingP"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "So23SFAuthenticationSessionC"
+- "10OAuthSwift26SFAuthenticationURLHandlerC"
+- "So22SFSafariViewControllerC"
+- "So30SFSafariViewControllerDelegateP"
+- "10OAuthSwift16SafariURLHandlerC"
+- !private "7Combine9SchedulerP"
+- "ST"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So21UIAppearanceContainerP"
+- !private "So13UIApplicationC"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- !private "10Foundation3URLV"
+- !private "10OAuthSwift14URLConvertibleP"
+- !private "10Foundation4UUIDV"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/congle/Desktop/DEVELOPMENTS/Social-Login/Pods/Target Support Files/OAuthSwift/OAuthSwift-umbrella.h"
+- "/Users/congle/Desktop/DEVELOPMENTS/Social-Login/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/OAuthSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SafariServices.framework/Headers/SafariServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/AuthenticationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c2fc65dd67982dd1eb212810625efb6b"

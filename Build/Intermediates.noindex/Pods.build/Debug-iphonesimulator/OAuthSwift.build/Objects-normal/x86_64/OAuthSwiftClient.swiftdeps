@@ -1,0 +1,760 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OAuthSwiftDataEncoding"
+- "OAuthSwiftRequestHandle"
+- "OAuthSwiftClient"
+provides-nominal:
+- "10OAuthSwift0aB13RequestHandleP"
+- "10OAuthSwift0aB6ClientC"
+provides-member:
+- ["10OAuthSwift0aB13RequestHandleP", ""]
+- ["10OAuthSwift0aB6ClientC", ""]
+provides-dynamic-lookup:
+- "cancel"
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "+="
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "Data"
+- "ExtendedGraphemeClusterType"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NSObject"
+- "OAuthSwift"
+- "OAuthSwiftClient"
+- "OAuthSwiftCredential"
+- "OAuthSwiftDataEncoding"
+- "OAuthSwiftHTTPRequest"
+- "OAuthSwiftMultipartData"
+- "OAuthSwiftRequestHandle"
+- "String"
+- "StringLiteralType"
+- "URLConvertible"
+- "URLRequest"
+- "URLSessionFactory"
+- !private "UnicodeScalarType"
+- !private "arc4random"
+- !private "kHTTPHeaderContentType"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- ["SK", "Encoding"]
+- !private ["SK", "append"]
+- ["SK", "data"]
+- !private ["SK", "init"]
+- ["s7CVarArgP", "CompletionHandler"]
+- !private ["s7CVarArgP", "Data"]
+- ["s7CVarArgP", "Encoding"]
+- ["s7CVarArgP", "Headers"]
+- ["s7CVarArgP", "Method"]
+- !private ["s7CVarArgP", "OAuthSwift"]
+- ["s7CVarArgP", "OAuthSwiftClient"]
+- !private ["s7CVarArgP", "OAuthSwiftCredential"]
+- ["s7CVarArgP", "OAuthSwiftDataEncoding"]
+- !private ["s7CVarArgP", "OAuthSwiftHTTPRequest"]
+- !private ["s7CVarArgP", "OAuthSwiftMultipartData"]
+- ["s7CVarArgP", "Parameters"]
+- ["s7CVarArgP", "ParamsLocation"]
+- ["s7CVarArgP", "URLSessionFactory"]
+- ["s7CVarArgP", "Version"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "arc4random"]
+- !private ["s7CVarArgP", "config"]
+- !private ["s7CVarArgP", "credential"]
+- ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isTokenExpired"]
+- !private ["s7CVarArgP", "kHTTPHeaderContentType"]
+- !private ["s7CVarArgP", "makeMultiPartRequest"]
+- !private ["s7CVarArgP", "makeRequest"]
+- !private ["s7CVarArgP", "multiDataFromObject"]
+- !private ["s7CVarArgP", "multiPartRequest"]
+- !private ["s7CVarArgP", "oauthToken"]
+- !private ["s7CVarArgP", "oauthTokenSecret"]
+- !private ["s7CVarArgP", "paramsLocation"]
+- !private ["s7CVarArgP", "request"]
+- ["s7CVarArgP", "separator"]
+- !private ["s7CVarArgP", "separatorData"]
+- !private ["s7CVarArgP", "sessionFactory"]
+- !private ["s7CVarArgP", "start"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "version"]
+- ["Sl", "Encoding"]
+- !private ["Sl", "append"]
+- ["Sl", "data"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- ["SL", "Encoding"]
+- ["SL", "data"]
+- !private ["10OAuthSwift0aB11HTTPRequestC6ConfigV", "updateRequest"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- ["s28CustomDebugStringConvertibleP", "CompletionHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "Data"]
+- ["s28CustomDebugStringConvertibleP", "Encoding"]
+- ["s28CustomDebugStringConvertibleP", "Headers"]
+- ["s28CustomDebugStringConvertibleP", "Method"]
+- !private ["s28CustomDebugStringConvertibleP", "OAuthSwift"]
+- ["s28CustomDebugStringConvertibleP", "OAuthSwiftClient"]
+- !private ["s28CustomDebugStringConvertibleP", "OAuthSwiftCredential"]
+- ["s28CustomDebugStringConvertibleP", "OAuthSwiftDataEncoding"]
+- !private ["s28CustomDebugStringConvertibleP", "OAuthSwiftHTTPRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "OAuthSwiftMultipartData"]
+- ["s28CustomDebugStringConvertibleP", "Parameters"]
+- ["s28CustomDebugStringConvertibleP", "ParamsLocation"]
+- ["s28CustomDebugStringConvertibleP", "URLSessionFactory"]
+- ["s28CustomDebugStringConvertibleP", "Version"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "arc4random"]
+- !private ["s28CustomDebugStringConvertibleP", "config"]
+- !private ["s28CustomDebugStringConvertibleP", "credential"]
+- ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isTokenExpired"]
+- !private ["s28CustomDebugStringConvertibleP", "kHTTPHeaderContentType"]
+- !private ["s28CustomDebugStringConvertibleP", "makeMultiPartRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "makeRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "multiDataFromObject"]
+- !private ["s28CustomDebugStringConvertibleP", "multiPartRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "oauthToken"]
+- !private ["s28CustomDebugStringConvertibleP", "oauthTokenSecret"]
+- !private ["s28CustomDebugStringConvertibleP", "paramsLocation"]
+- !private ["s28CustomDebugStringConvertibleP", "request"]
+- ["s28CustomDebugStringConvertibleP", "separator"]
+- !private ["s28CustomDebugStringConvertibleP", "separatorData"]
+- !private ["s28CustomDebugStringConvertibleP", "sessionFactory"]
+- !private ["s28CustomDebugStringConvertibleP", "start"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "version"]
+- !private ["10Foundation13CustomNSErrorP", "encodingError"]
+- !private ["10Foundation13CustomNSErrorP", "tokenExpired"]
+- ["s17CustomReflectableP", "Encoding"]
+- !private ["s17CustomReflectableP", "append"]
+- ["s17CustomReflectableP", "data"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "CompletionHandler"]
+- !private ["s23CustomStringConvertibleP", "Data"]
+- ["s23CustomStringConvertibleP", "Encoding"]
+- ["s23CustomStringConvertibleP", "Headers"]
+- ["s23CustomStringConvertibleP", "Method"]
+- !private ["s23CustomStringConvertibleP", "OAuthSwift"]
+- ["s23CustomStringConvertibleP", "OAuthSwiftClient"]
+- !private ["s23CustomStringConvertibleP", "OAuthSwiftCredential"]
+- ["s23CustomStringConvertibleP", "OAuthSwiftDataEncoding"]
+- !private ["s23CustomStringConvertibleP", "OAuthSwiftHTTPRequest"]
+- !private ["s23CustomStringConvertibleP", "OAuthSwiftMultipartData"]
+- ["s23CustomStringConvertibleP", "Parameters"]
+- ["s23CustomStringConvertibleP", "ParamsLocation"]
+- ["s23CustomStringConvertibleP", "URLSessionFactory"]
+- ["s23CustomStringConvertibleP", "Version"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "arc4random"]
+- !private ["s23CustomStringConvertibleP", "config"]
+- !private ["s23CustomStringConvertibleP", "credential"]
+- ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "encodingError"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isTokenExpired"]
+- !private ["s23CustomStringConvertibleP", "kHTTPHeaderContentType"]
+- !private ["s23CustomStringConvertibleP", "makeMultiPartRequest"]
+- !private ["s23CustomStringConvertibleP", "makeRequest"]
+- !private ["s23CustomStringConvertibleP", "multiDataFromObject"]
+- !private ["s23CustomStringConvertibleP", "multiPartRequest"]
+- !private ["s23CustomStringConvertibleP", "oauthToken"]
+- !private ["s23CustomStringConvertibleP", "oauthTokenSecret"]
+- !private ["s23CustomStringConvertibleP", "paramsLocation"]
+- !private ["s23CustomStringConvertibleP", "request"]
+- ["s23CustomStringConvertibleP", "separator"]
+- !private ["s23CustomStringConvertibleP", "separatorData"]
+- !private ["s23CustomStringConvertibleP", "sessionFactory"]
+- !private ["s23CustomStringConvertibleP", "start"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "tokenExpired"]
+- ["s23CustomStringConvertibleP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "version"]
+- !private ["10Foundation4DataV", "append"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- ["Se", "Encoding"]
+- ["Se", "Version"]
+- !private ["Se", "append"]
+- ["Se", "data"]
+- !private ["Se", "init"]
+- !private ["Se", "isTokenExpired"]
+- !private ["Se", "oauth1"]
+- !private ["Se", "oauthToken"]
+- !private ["Se", "oauthTokenSecret"]
+- !private ["Se", "subscript"]
+- !private ["Se", "version"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "init"]
+- !private ["SD", "subscript"]
+- ["SE", "Encoding"]
+- ["SE", "Version"]
+- !private ["SE", "append"]
+- ["SE", "data"]
+- !private ["SE", "init"]
+- !private ["SE", "isTokenExpired"]
+- !private ["SE", "oauth1"]
+- !private ["SE", "oauthToken"]
+- !private ["SE", "oauthTokenSecret"]
+- !private ["SE", "subscript"]
+- !private ["SE", "version"]
+- ["SS10FoundationE8EncodingV", "utf8"]
+- ["SQ", "CompletionHandler"]
+- !private ["SQ", "DELETE"]
+- !private ["SQ", "Data"]
+- ["SQ", "Encoding"]
+- !private ["SQ", "GET"]
+- ["SQ", "Headers"]
+- ["SQ", "Method"]
+- !private ["SQ", "OAuthSwift"]
+- ["SQ", "OAuthSwiftClient"]
+- !private ["SQ", "OAuthSwiftCredential"]
+- ["SQ", "OAuthSwiftDataEncoding"]
+- !private ["SQ", "OAuthSwiftHTTPRequest"]
+- !private ["SQ", "OAuthSwiftMultipartData"]
+- !private ["SQ", "PATCH"]
+- !private ["SQ", "POST"]
+- !private ["SQ", "PUT"]
+- ["SQ", "Parameters"]
+- ["SQ", "ParamsLocation"]
+- ["SQ", "URLSessionFactory"]
+- ["SQ", "Version"]
+- ["SQ", ""]
+- !private ["SQ", "append"]
+- !private ["SQ", "arc4random"]
+- ["SQ", "authorizationHeader"]
+- !private ["SQ", "config"]
+- !private ["SQ", "credential"]
+- ["SQ", "data"]
+- !private ["SQ", "failure"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isTokenExpired"]
+- !private ["SQ", "kHTTPHeaderContentType"]
+- !private ["SQ", "makeMultiPartRequest"]
+- !private ["SQ", "makeRequest"]
+- !private ["SQ", "multiDataFromObject"]
+- !private ["SQ", "multiPartRequest"]
+- !private ["SQ", "oauth1"]
+- !private ["SQ", "oauthToken"]
+- !private ["SQ", "oauthTokenSecret"]
+- !private ["SQ", "paramsLocation"]
+- !private ["SQ", "request"]
+- ["SQ", "separator"]
+- !private ["SQ", "separatorData"]
+- !private ["SQ", "sessionFactory"]
+- !private ["SQ", "start"]
+- !private ["SQ", "subscript"]
+- ["SQ", "utf8"]
+- !private ["SQ", "version"]
+- !private ["s5ErrorP", "encodingError"]
+- !private ["s5ErrorP", "tokenExpired"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Encoding"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "data"]
+- ["s32ExpressibleByStringInterpolationP", "Encoding"]
+- ["s32ExpressibleByStringInterpolationP", "data"]
+- ["s26ExpressibleByStringLiteralP", "Encoding"]
+- ["s26ExpressibleByStringLiteralP", "data"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "Encoding"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "data"]
+- ["SH", "CompletionHandler"]
+- !private ["SH", "DELETE"]
+- !private ["SH", "Data"]
+- ["SH", "Encoding"]
+- !private ["SH", "GET"]
+- ["SH", "Headers"]
+- ["SH", "Method"]
+- !private ["SH", "OAuthSwift"]
+- ["SH", "OAuthSwiftClient"]
+- !private ["SH", "OAuthSwiftCredential"]
+- ["SH", "OAuthSwiftDataEncoding"]
+- !private ["SH", "OAuthSwiftHTTPRequest"]
+- !private ["SH", "OAuthSwiftMultipartData"]
+- !private ["SH", "PATCH"]
+- !private ["SH", "POST"]
+- !private ["SH", "PUT"]
+- ["SH", "Parameters"]
+- ["SH", "ParamsLocation"]
+- ["SH", "URLSessionFactory"]
+- ["SH", "Version"]
+- ["SH", ""]
+- !private ["SH", "append"]
+- !private ["SH", "arc4random"]
+- ["SH", "authorizationHeader"]
+- !private ["SH", "config"]
+- !private ["SH", "credential"]
+- ["SH", "data"]
+- !private ["SH", "failure"]
+- !private ["SH", "init"]
+- !private ["SH", "isTokenExpired"]
+- !private ["SH", "kHTTPHeaderContentType"]
+- !private ["SH", "makeMultiPartRequest"]
+- !private ["SH", "makeRequest"]
+- !private ["SH", "multiDataFromObject"]
+- !private ["SH", "multiPartRequest"]
+- !private ["SH", "oauth1"]
+- !private ["SH", "oauthToken"]
+- !private ["SH", "oauthTokenSecret"]
+- !private ["SH", "paramsLocation"]
+- !private ["SH", "request"]
+- ["SH", "separator"]
+- !private ["SH", "separatorData"]
+- !private ["SH", "sessionFactory"]
+- !private ["SH", "start"]
+- !private ["SH", "subscript"]
+- ["SH", "utf8"]
+- !private ["SH", "version"]
+- ["s25LosslessStringConvertibleP", "Encoding"]
+- ["s25LosslessStringConvertibleP", "data"]
+- !private ["10OAuthSwift0aB11HTTPRequestC6MethodO", "DELETE"]
+- !private ["10OAuthSwift0aB11HTTPRequestC6MethodO", "GET"]
+- !private ["10OAuthSwift0aB11HTTPRequestC6MethodO", "PATCH"]
+- !private ["10OAuthSwift0aB11HTTPRequestC6MethodO", "POST"]
+- !private ["10OAuthSwift0aB11HTTPRequestC6MethodO", "PUT"]
+- ["s10MirrorPathP", "Encoding"]
+- ["s10MirrorPathP", "data"]
+- !private ["SM", "append"]
+- !private ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- ["So8NSCodingP", "Version"]
+- ["So8NSCodingP", "data"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isTokenExpired"]
+- !private ["So8NSCodingP", "oauthToken"]
+- !private ["So8NSCodingP", "oauthTokenSecret"]
+- !private ["So8NSCodingP", "version"]
+- ["So9NSCopyingP", "data"]
+- ["So21NSItemProviderReadingP", "data"]
+- ["So21NSItemProviderWritingP", "data"]
+- ["So16NSMutableCopyingP", "data"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CompletionHandler"]
+- ["So8NSObjectC", "Data"]
+- ["So8NSObjectC", "Headers"]
+- ["So8NSObjectC", "Method"]
+- ["So8NSObjectC", "OAuthSwift"]
+- ["So8NSObjectC", "OAuthSwiftClient"]
+- ["So8NSObjectC", "OAuthSwiftCredential"]
+- ["So8NSObjectC", "OAuthSwiftDataEncoding"]
+- ["So8NSObjectC", "OAuthSwiftHTTPRequest"]
+- ["So8NSObjectC", "OAuthSwiftMultipartData"]
+- ["So8NSObjectC", "OAuthSwiftRequestHandle"]
+- ["So8NSObjectC", "Parameters"]
+- ["So8NSObjectC", "ParamsLocation"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "URLConvertible"]
+- ["So8NSObjectC", "URLRequest"]
+- ["So8NSObjectC", "URLSessionFactory"]
+- ["So8NSObjectC", "Version"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "arc4random"]
+- !private ["So8NSObjectC", "config"]
+- ["So8NSObjectC", "credential"]
+- ["So8NSObjectC", "data"]
+- ["So8NSObjectC", "delete"]
+- ["So8NSObjectC", "get"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isTokenExpired"]
+- !private ["So8NSObjectC", "kHTTPHeaderContentType"]
+- ["So8NSObjectC", "makeMultiPartRequest"]
+- ["So8NSObjectC", "makeRequest"]
+- ["So8NSObjectC", "multiDataFromObject"]
+- ["So8NSObjectC", "multiPartBody"]
+- ["So8NSObjectC", "multiPartRequest"]
+- !private ["So8NSObjectC", "oauthToken"]
+- !private ["So8NSObjectC", "oauthTokenSecret"]
+- ["So8NSObjectC", "paramsLocation"]
+- ["So8NSObjectC", "patch"]
+- ["So8NSObjectC", "post"]
+- ["So8NSObjectC", "postImage"]
+- ["So8NSObjectC", "postMultiPartRequest"]
+- ["So8NSObjectC", "put"]
+- ["So8NSObjectC", "request"]
+- ["So8NSObjectC", "separator"]
+- ["So8NSObjectC", "separatorData"]
+- ["So8NSObjectC", "sessionFactory"]
+- !private ["So8NSObjectC", "start"]
+- !private ["So8NSObjectC", "version"]
+- ["So8NSObjectP", "CompletionHandler"]
+- !private ["So8NSObjectP", "Data"]
+- ["So8NSObjectP", "Headers"]
+- ["So8NSObjectP", "Method"]
+- !private ["So8NSObjectP", "OAuthSwift"]
+- ["So8NSObjectP", "OAuthSwiftClient"]
+- !private ["So8NSObjectP", "OAuthSwiftCredential"]
+- ["So8NSObjectP", "OAuthSwiftDataEncoding"]
+- !private ["So8NSObjectP", "OAuthSwiftHTTPRequest"]
+- !private ["So8NSObjectP", "OAuthSwiftMultipartData"]
+- ["So8NSObjectP", "Parameters"]
+- ["So8NSObjectP", "ParamsLocation"]
+- ["So8NSObjectP", "URLSessionFactory"]
+- ["So8NSObjectP", "Version"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "arc4random"]
+- !private ["So8NSObjectP", "config"]
+- !private ["So8NSObjectP", "credential"]
+- ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isTokenExpired"]
+- !private ["So8NSObjectP", "kHTTPHeaderContentType"]
+- !private ["So8NSObjectP", "makeMultiPartRequest"]
+- !private ["So8NSObjectP", "makeRequest"]
+- !private ["So8NSObjectP", "multiDataFromObject"]
+- !private ["So8NSObjectP", "multiPartRequest"]
+- !private ["So8NSObjectP", "oauthToken"]
+- !private ["So8NSObjectP", "oauthTokenSecret"]
+- !private ["So8NSObjectP", "paramsLocation"]
+- !private ["So8NSObjectP", "request"]
+- ["So8NSObjectP", "separator"]
+- !private ["So8NSObjectP", "separatorData"]
+- !private ["So8NSObjectP", "sessionFactory"]
+- !private ["So8NSObjectP", "start"]
+- !private ["So8NSObjectP", "version"]
+- ["So14NSSecureCodingP", "Version"]
+- ["So14NSSecureCodingP", "data"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "isTokenExpired"]
+- !private ["So14NSSecureCodingP", "oauthToken"]
+- !private ["So14NSSecureCodingP", "oauthTokenSecret"]
+- !private ["So14NSSecureCodingP", "version"]
+- ["So8NSStringC", "data"]
+- ["10OAuthSwiftAAC", "Headers"]
+- ["10OAuthSwiftAAC", "Parameters"]
+- ["10OAuthSwift0aB6ClientC", "Bool"]
+- ["10OAuthSwift0aB6ClientC", "Data"]
+- ["10OAuthSwift0aB6ClientC", "OAuthSwift"]
+- ["10OAuthSwift0aB6ClientC", "OAuthSwiftClient"]
+- ["10OAuthSwift0aB6ClientC", "OAuthSwiftCredential"]
+- ["10OAuthSwift0aB6ClientC", "OAuthSwiftDataEncoding"]
+- ["10OAuthSwift0aB6ClientC", "OAuthSwiftHTTPRequest"]
+- ["10OAuthSwift0aB6ClientC", "OAuthSwiftMultipartData"]
+- ["10OAuthSwift0aB6ClientC", "OAuthSwiftRequestHandle"]
+- ["10OAuthSwift0aB6ClientC", "String"]
+- ["10OAuthSwift0aB6ClientC", "URLConvertible"]
+- ["10OAuthSwift0aB6ClientC", "URLRequest"]
+- ["10OAuthSwift0aB6ClientC", "URLSessionFactory"]
+- !private ["10OAuthSwift0aB6ClientC", "arc4random"]
+- ["10OAuthSwift0aB6ClientC", "credential"]
+- ["10OAuthSwift0aB6ClientC", "deinit"]
+- ["10OAuthSwift0aB6ClientC", "delete"]
+- ["10OAuthSwift0aB6ClientC", "get"]
+- ["10OAuthSwift0aB6ClientC", "init"]
+- !private ["10OAuthSwift0aB6ClientC", "kHTTPHeaderContentType"]
+- ["10OAuthSwift0aB6ClientC", "makeMultiPartRequest"]
+- ["10OAuthSwift0aB6ClientC", "makeRequest"]
+- ["10OAuthSwift0aB6ClientC", "multiDataFromObject"]
+- ["10OAuthSwift0aB6ClientC", "multiPartBody"]
+- ["10OAuthSwift0aB6ClientC", "multiPartRequest"]
+- ["10OAuthSwift0aB6ClientC", "paramsLocation"]
+- ["10OAuthSwift0aB6ClientC", "patch"]
+- ["10OAuthSwift0aB6ClientC", "post"]
+- ["10OAuthSwift0aB6ClientC", "postImage"]
+- ["10OAuthSwift0aB6ClientC", "postMultiPartRequest"]
+- ["10OAuthSwift0aB6ClientC", "put"]
+- ["10OAuthSwift0aB6ClientC", "request"]
+- ["10OAuthSwift0aB6ClientC", "separator"]
+- ["10OAuthSwift0aB6ClientC", "separatorData"]
+- ["10OAuthSwift0aB6ClientC", "sessionFactory"]
+- ["10OAuthSwift0aB10CredentialC", "Version"]
+- !private ["10OAuthSwift0aB10CredentialC", "deinit"]
+- !private ["10OAuthSwift0aB10CredentialC", "init"]
+- !private ["10OAuthSwift0aB10CredentialC", "isTokenExpired"]
+- !private ["10OAuthSwift0aB10CredentialC", "oauthToken"]
+- !private ["10OAuthSwift0aB10CredentialC", "oauthTokenSecret"]
+- !private ["10OAuthSwift0aB10CredentialC", "version"]
+- !private ["10OAuthSwift0aB5ErrorO", "deinit"]
+- !private ["10OAuthSwift0aB5ErrorO", "encodingError"]
+- !private ["10OAuthSwift0aB5ErrorO", "tokenExpired"]
+- ["10OAuthSwift0aB11HTTPRequestC", "CompletionHandler"]
+- ["10OAuthSwift0aB11HTTPRequestC", "Method"]
+- ["10OAuthSwift0aB11HTTPRequestC", "ParamsLocation"]
+- !private ["10OAuthSwift0aB11HTTPRequestC", "config"]
+- !private ["10OAuthSwift0aB11HTTPRequestC", "deinit"]
+- !private ["10OAuthSwift0aB11HTTPRequestC", "init"]
+- !private ["10OAuthSwift0aB11HTTPRequestC", "start"]
+- !private ["10OAuthSwift0aB13MultipartDataV", "init"]
+- ["10OAuthSwift0aB13RequestHandleP", "CompletionHandler"]
+- ["10OAuthSwift0aB13RequestHandleP", "Headers"]
+- ["10OAuthSwift0aB13RequestHandleP", "Method"]
+- ["10OAuthSwift0aB13RequestHandleP", "Parameters"]
+- ["10OAuthSwift0aB13RequestHandleP", "ParamsLocation"]
+- ["10OAuthSwift0aB13RequestHandleP", "cancel"]
+- !private ["10OAuthSwift0aB13RequestHandleP", "config"]
+- !private ["10OAuthSwift0aB13RequestHandleP", "init"]
+- !private ["10OAuthSwift0aB13RequestHandleP", "start"]
+- ["10OAuthSwift0aB11HTTPRequestC14ParamsLocationO", "authorizationHeader"]
+- !private ["Sk", "append"]
+- !private ["Sk", "init"]
+- ["Sm", "Encoding"]
+- !private ["Sm", "append"]
+- ["Sm", "data"]
+- !private ["Sm", "init"]
+- !private ["SY", "DELETE"]
+- !private ["SY", "GET"]
+- !private ["SY", "PATCH"]
+- !private ["SY", "POST"]
+- !private ["SY", "PUT"]
+- ["SY", "authorizationHeader"]
+- ["SY", "utf8"]
+- !private ["10Foundation20ReferenceConvertibleP", "append"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["s6ResultO", "failure"]
+- ["ST", "Encoding"]
+- !private ["ST", "append"]
+- ["ST", "data"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- ["SS", "Encoding"]
+- ["SS", "data"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- ["Sy", "Encoding"]
+- ["Sy", "data"]
+- ["s16TextOutputStreamP", "Encoding"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- ["s16TextOutputStreamP", "data"]
+- ["s20TextOutputStreamableP", "Encoding"]
+- ["s20TextOutputStreamableP", "data"]
+- ["10OAuthSwift14URLConvertibleP", "Encoding"]
+- ["10OAuthSwift14URLConvertibleP", "data"]
+- !private ["10OAuthSwift14URLConvertibleP", "string"]
+- !private ["10OAuthSwift14URLConvertibleP", "url"]
+- ["10OAuthSwift17URLSessionFactoryV", "init"]
+- !private ["10OAuthSwift0aB10CredentialC7VersionO", "oauth1"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "init"]
+- ["s30_CustomPlaygroundQuickLookableP", "Encoding"]
+- ["s30_CustomPlaygroundQuickLookableP", "data"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Encoding"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "data"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "Encoding"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "data"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Encoding"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "data"]
+- ["s19_HasContiguousBytesP", "Encoding"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- ["s19_HasContiguousBytesP", "data"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- ["s35_HasCustomAnyHashableRepresentationP", "data"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CompletionHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Data"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Headers"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Method"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "OAuthSwift"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "OAuthSwiftClient"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "OAuthSwiftCredential"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "OAuthSwiftDataEncoding"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "OAuthSwiftHTTPRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "OAuthSwiftMultipartData"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Parameters"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ParamsLocation"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "URLSessionFactory"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Version"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "arc4random"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "config"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "credential"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isTokenExpired"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kHTTPHeaderContentType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "makeMultiPartRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "makeRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "multiDataFromObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "multiPartRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "oauthToken"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "oauthTokenSecret"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "paramsLocation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "request"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "separator"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "separatorData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sessionFactory"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "start"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "version"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CompletionHandler"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Data"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Headers"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Method"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "OAuthSwift"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "OAuthSwiftClient"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "OAuthSwiftCredential"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "OAuthSwiftDataEncoding"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "OAuthSwiftHTTPRequest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "OAuthSwiftMultipartData"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Parameters"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ParamsLocation"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URLSessionFactory"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Version"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "arc4random"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "config"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "credential"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "data"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isTokenExpired"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "kHTTPHeaderContentType"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "makeMultiPartRequest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "makeRequest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "multiDataFromObject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "multiPartRequest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "oauthToken"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "oauthTokenSecret"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "paramsLocation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "request"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "separator"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "separatorData"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sessionFactory"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "start"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "version"]
+- ["s21_ObjectiveCBridgeableP", "Encoding"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- ["s21_ObjectiveCBridgeableP", "data"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- "SK"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- !private "10OAuthSwift0aB11HTTPRequestC6ConfigV"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "10Foundation13CustomNSErrorP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- "SE"
+- "SS10FoundationE8EncodingV"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- !private "10OAuthSwift0aB11HTTPRequestC6MethodO"
+- "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- "10OAuthSwiftAAC"
+- "10OAuthSwift0aB6ClientC"
+- "10OAuthSwift0aB10CredentialC"
+- !private "10OAuthSwift0aB5ErrorO"
+- "10OAuthSwift0aB11HTTPRequestC"
+- !private "10OAuthSwift0aB13MultipartDataV"
+- "10OAuthSwift0aB13RequestHandleP"
+- "10OAuthSwift0aB11HTTPRequestC14ParamsLocationO"
+- !private "Sk"
+- "Sm"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s6ResultO"
+- "ST"
+- "SS"
+- !private "s27StringInterpolationProtocolP"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "10OAuthSwift14URLConvertibleP"
+- "10OAuthSwift17URLSessionFactoryV"
+- !private "10OAuthSwift0aB10CredentialC7VersionO"
+- !private "s14_ArrayProtocolP"
+- "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/congle/Desktop/DEVELOPMENTS/Social-Login/Pods/Target Support Files/OAuthSwift/OAuthSwift-umbrella.h"
+- "/Users/congle/Desktop/DEVELOPMENTS/Social-Login/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/OAuthSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SafariServices.framework/Headers/SafariServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/AuthenticationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "d8571587aec27cf0976f28132fe42696"

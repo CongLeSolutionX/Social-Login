@@ -1,0 +1,329 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OAuthSwiftResponse"
+provides-nominal:
+- "10OAuthSwift0aB8ResponseC"
+provides-member:
+- ["10OAuthSwift0aB8ResponseC", ""]
+- ["10OAuthSwift0aB8ResponseC", "dataString"]
+- ["10OAuthSwift0aB8ResponseC", "string"]
+- ["10OAuthSwift0aB8ResponseC", "jsonObject"]
+- ["10OAuthSwift0aB8ResponseC", "propertyList"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Data"
+- !private "FloatLiteralType"
+- "HTTPURLResponse"
+- !private "IntegerLiteralType"
+- "JSONSerialization"
+- "NSObject"
+- !private "OAuthSwiftDataEncoding"
+- "OAuthSwiftResponse"
+- "PropertyListSerialization"
+- "String"
+- !private "StringLiteralType"
+- "URLRequest"
+- "UnsafeMutablePointer"
+depends-member:
+- ["SK", "Encoding"]
+- !private ["SK", "init"]
+- ["s7CVarArgP", "Encoding"]
+- !private ["s7CVarArgP", "JSONSerialization"]
+- !private ["s7CVarArgP", "OAuthSwiftDataEncoding"]
+- ["s7CVarArgP", "PropertyListFormat"]
+- !private ["s7CVarArgP", "PropertyListSerialization"]
+- ["s7CVarArgP", "ReadOptions"]
+- ["s7CVarArgP", "ReadingOptions"]
+- !private ["s7CVarArgP", "String"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "data"]
+- !private ["s7CVarArgP", "dataString"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "jsonObject"]
+- !private ["s7CVarArgP", "propertyList"]
+- !private ["s7CVarArgP", "request"]
+- !private ["s7CVarArgP", "response"]
+- ["Sl", "Encoding"]
+- !private ["Sl", "init"]
+- ["SL", "Encoding"]
+- !private ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "Encoding"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONSerialization"]
+- !private ["s28CustomDebugStringConvertibleP", "OAuthSwiftDataEncoding"]
+- ["s28CustomDebugStringConvertibleP", "PropertyListFormat"]
+- !private ["s28CustomDebugStringConvertibleP", "PropertyListSerialization"]
+- ["s28CustomDebugStringConvertibleP", "ReadOptions"]
+- ["s28CustomDebugStringConvertibleP", "ReadingOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "dataString"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "jsonObject"]
+- !private ["s28CustomDebugStringConvertibleP", "propertyList"]
+- !private ["s28CustomDebugStringConvertibleP", "request"]
+- !private ["s28CustomDebugStringConvertibleP", "response"]
+- ["s17CustomReflectableP", "Encoding"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "Encoding"]
+- !private ["s23CustomStringConvertibleP", "JSONSerialization"]
+- !private ["s23CustomStringConvertibleP", "OAuthSwiftDataEncoding"]
+- ["s23CustomStringConvertibleP", "PropertyListFormat"]
+- !private ["s23CustomStringConvertibleP", "PropertyListSerialization"]
+- ["s23CustomStringConvertibleP", "ReadOptions"]
+- ["s23CustomStringConvertibleP", "ReadingOptions"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "dataString"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "jsonObject"]
+- !private ["s23CustomStringConvertibleP", "propertyList"]
+- !private ["s23CustomStringConvertibleP", "request"]
+- !private ["s23CustomStringConvertibleP", "response"]
+- ["Se", "Encoding"]
+- !private ["Se", "init"]
+- ["SE", "Encoding"]
+- !private ["SE", "init"]
+- ["SQ", "Encoding"]
+- !private ["SQ", "JSONSerialization"]
+- !private ["SQ", "OAuthSwiftDataEncoding"]
+- ["SQ", "PropertyListFormat"]
+- !private ["SQ", "PropertyListSerialization"]
+- ["SQ", "ReadOptions"]
+- ["SQ", "ReadingOptions"]
+- !private ["SQ", "String"]
+- ["SQ", ""]
+- !private ["SQ", "data"]
+- !private ["SQ", "dataString"]
+- !private ["SQ", "init"]
+- !private ["SQ", "jsonObject"]
+- !private ["SQ", "propertyList"]
+- !private ["SQ", "request"]
+- !private ["SQ", "response"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Encoding"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s32ExpressibleByStringInterpolationP", "Encoding"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- ["s26ExpressibleByStringLiteralP", "Encoding"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "Encoding"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "Encoding"]
+- !private ["SH", "JSONSerialization"]
+- !private ["SH", "OAuthSwiftDataEncoding"]
+- ["SH", "PropertyListFormat"]
+- !private ["SH", "PropertyListSerialization"]
+- ["SH", "ReadOptions"]
+- ["SH", "ReadingOptions"]
+- !private ["SH", "String"]
+- ["SH", ""]
+- !private ["SH", "data"]
+- !private ["SH", "dataString"]
+- !private ["SH", "init"]
+- !private ["SH", "jsonObject"]
+- !private ["SH", "propertyList"]
+- !private ["SH", "request"]
+- !private ["SH", "response"]
+- ["So19NSJSONSerializationC", "ReadingOptions"]
+- !private ["So19NSJSONSerializationC", "jsonObject"]
+- ["s25LosslessStringConvertibleP", "Encoding"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "Encoding"]
+- !private ["s10MirrorPathP", "init"]
+- ["So8NSObjectC", "Data"]
+- ["So8NSObjectC", "HTTPURLResponse"]
+- ["So8NSObjectC", "JSONSerialization"]
+- !private ["So8NSObjectC", "OAuthSwiftDataEncoding"]
+- ["So8NSObjectC", "PropertyListFormat"]
+- ["So8NSObjectC", "PropertyListSerialization"]
+- ["So8NSObjectC", "ReadOptions"]
+- ["So8NSObjectC", "ReadingOptions"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "URLRequest"]
+- ["So8NSObjectC", "UnsafeMutablePointer"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "data"]
+- ["So8NSObjectC", "dataString"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "jsonObject"]
+- ["So8NSObjectC", "propertyList"]
+- ["So8NSObjectC", "request"]
+- ["So8NSObjectC", "response"]
+- ["So8NSObjectC", "string"]
+- !private ["So8NSObjectP", "JSONSerialization"]
+- !private ["So8NSObjectP", "OAuthSwiftDataEncoding"]
+- ["So8NSObjectP", "PropertyListFormat"]
+- !private ["So8NSObjectP", "PropertyListSerialization"]
+- ["So8NSObjectP", "ReadOptions"]
+- ["So8NSObjectP", "ReadingOptions"]
+- !private ["So8NSObjectP", "String"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "data"]
+- !private ["So8NSObjectP", "dataString"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "jsonObject"]
+- !private ["So8NSObjectP", "propertyList"]
+- !private ["So8NSObjectP", "request"]
+- !private ["So8NSObjectP", "response"]
+- ["10OAuthSwift0aB8ResponseC", "Data"]
+- ["10OAuthSwift0aB8ResponseC", "HTTPURLResponse"]
+- ["10OAuthSwift0aB8ResponseC", "JSONSerialization"]
+- !private ["10OAuthSwift0aB8ResponseC", "OAuthSwiftDataEncoding"]
+- ["10OAuthSwift0aB8ResponseC", "PropertyListSerialization"]
+- ["10OAuthSwift0aB8ResponseC", "String"]
+- ["10OAuthSwift0aB8ResponseC", "URLRequest"]
+- ["10OAuthSwift0aB8ResponseC", "UnsafeMutablePointer"]
+- ["10OAuthSwift0aB8ResponseC", "data"]
+- ["10OAuthSwift0aB8ResponseC", "dataString"]
+- ["10OAuthSwift0aB8ResponseC", "deinit"]
+- ["10OAuthSwift0aB8ResponseC", "init"]
+- ["10OAuthSwift0aB8ResponseC", "jsonObject"]
+- ["10OAuthSwift0aB8ResponseC", "propertyList"]
+- ["10OAuthSwift0aB8ResponseC", "request"]
+- ["10OAuthSwift0aB8ResponseC", "response"]
+- ["10OAuthSwift0aB8ResponseC", "string"]
+- ["So27NSPropertyListSerializationC", "PropertyListFormat"]
+- ["So27NSPropertyListSerializationC", "ReadOptions"]
+- !private ["So27NSPropertyListSerializationC", "propertyList"]
+- ["Sm", "Encoding"]
+- !private ["Sm", "init"]
+- ["ST", "Encoding"]
+- !private ["ST", "init"]
+- ["SS", "Encoding"]
+- !private ["SS", "init"]
+- ["Sy", "Encoding"]
+- !private ["Sy", "init"]
+- ["s16TextOutputStreamP", "Encoding"]
+- !private ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "Encoding"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["10OAuthSwift14URLConvertibleP", "Encoding"]
+- !private ["10OAuthSwift14URLConvertibleP", "init"]
+- ["s30_CustomPlaygroundQuickLookableP", "Encoding"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Encoding"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "Encoding"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Encoding"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s19_HasContiguousBytesP", "Encoding"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONSerialization"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "OAuthSwiftDataEncoding"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "PropertyListFormat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PropertyListSerialization"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ReadOptions"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ReadingOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jsonObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "propertyList"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "request"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "response"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "JSONSerialization"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "OAuthSwiftDataEncoding"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PropertyListFormat"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PropertyListSerialization"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ReadOptions"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ReadingOptions"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "String"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "data"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataString"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "jsonObject"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "propertyList"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "request"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "response"]
+- ["s21_ObjectiveCBridgeableP", "Encoding"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- "SK"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "So19NSJSONSerializationC"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "10OAuthSwift0aB8ResponseC"
+- "So27NSPropertyListSerializationC"
+- "Sm"
+- "ST"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "10OAuthSwift14URLConvertibleP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s19_HasContiguousBytesP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreImage.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/QuartzCore.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/CoreGraphics.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/UIKit.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/congle/Desktop/DEVELOPMENTS/Social-Login/Pods/Target Support Files/OAuthSwift/OAuthSwift-umbrella.h"
+- "/Users/congle/Desktop/DEVELOPMENTS/Social-Login/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/OAuthSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/SafariServices.framework/Headers/SafariServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/AuthenticationServices.framework/Headers/AuthenticationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b6661fc21c140688b96a9015ce0994cb"
